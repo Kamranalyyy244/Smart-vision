@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMART VISION.PK</title>
+    <!-- bootstrap and javascript file -->
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <script src="bootstrap-5.3.2-dist/js/bootstrap.min.js"></script>
+    <!-- font cdn -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <!-- css file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- jquery cdn -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $("#new").click(function(){
+                $("new").hide();
+            });
+        });
+        $(document).ready(function(){
+            $("#new").click(function(){
+                $("#old").slideToggle("slow");
+            });
+        });
+    </script>
+</head>
+<body>
+
+    <!-- nav bar -->
+
+    <header>
+        <nav class="navbar navbar-expand-lg navigation-wrap fixed-top collapse-sm" style="background-color: white;">
+            <div class="container">
+                <a class="navbar-brand" href="#" style="font-size: 33px; color: black; font-family:sans-serif;">SMART VISION</a>
+                <button class="navbar-toggler" type="button" data-bs-toogle="collapse" data-bs-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-stream navbar-toogler-icon"></i>
+                </button>
+                <div class="collapse navbar-collapse text-black" id="navbarText" style="position: relative;">
+                    <div class="for_padin">
+                        <ul class="navbar-nav nav-underline ms-auto mb-2 mb-lg-0">
+                            <li class="navbar-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+                            </li>
+                            <li class="navbar-item">
+                                <a class="nav-link" href="about us/index.html">About Us</a>
+                            </li>
+                            <li class="navbar-item">
+                                <a class="nav-link " href="Men sunglasses/index.html">Men Sunglasses</a>
+                            </li>
+                            <li class="navbar-item">
+                                <a class="nav-link" href="#testimonial">Women Sunglasses</a>
+                            </li>
+                            <li class="navbar-item">
+                                <button class="btn btn-outline-success bttn" id="fix"><a href="login page/index.html">SIGN UP</a></button>
+                            </li>
+                            <form class="d-flex  firstclass" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Search your Product" aria-label="Search" 		         	style="width: 200px; ">
+                                <button class="btn btn-outline-success" type="submit">Search</button>
+                            </form>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- carosuel  -->
+    <div id="demo" class="carousel slide" data-ride="carousel">
+        <div class="carousel-indicators">
+          <button data-target="#demo" data-slide-to="0" class="active"></button>
+          <button data-target="#demo" data-slide-to="1"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="image/carosuel/images.jpeg" class="d-block" style="width: 100%; height: 500px;">
+            </div>
+            <div class="carousel-caption d-none d-md-block  fistclass">
+                <p>LATEST <br> PRODUCTS DESIGNS.</p>
+                <button type="button ">SHOP PRODUCTS</button>
+            </div>
+            <div class="carousel-item">
+                <img src="image/carosuel/img-3.jpg" class="d-block" style="width: 100%; height: 500px;">
+                <div class="carousel-caption d-none d-md-block  secondclass">
+                    <p> NEW SUNGLASSES <br> ARRIVAL</p>
+                    <button class="btn btn-dark btn-light">SHOP PRODUCTS</button>
+                </div>
+            </div>
+
+            <!-- LEFT RIGHT ICON  -->
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+             </button>
+             <button class="carousel-control-next " type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+             </button>
+        </div>
+    </div>
+
+    <!-- men and women image setion -->
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-6 col-sm-12 col-md-5" id="fake">
+                <a href="Men sunglasses/index.html"><img src="image/bg/img-1.png"></a>
+            </div>
+            <div class="col-lg-6 col-sm-12 col-md-5" id="real">
+                <a href="women sunglasses/index.html"><img src="image/bg/img-2.png"></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Add products list -->
+
+    <div class="container mt-5">
+        <h1 class="text-center" style="font-family:sans-serif;">Sunglasses In Pakistan</h1>
+    </div>
+
+    <!-- first row -->
+
+    <div class="container mt-3">
+        <div class="row" >
+            <div class="col-lg-3">
+                <div style="padding: 0px 10px; height: 130px; width: 260px;">
+                    <img src="image/image/endurance 97.png" width="100%" height="100%">
+                </div>
+                <h5 class="text-center mt-2">Dita Endurance 97</h5>
+                <p class="text-center">RS 1400</p>
+                <button class="btn btn-outline-success" style="margin-left: 80px;" >Shop Now</button>
+            </div>
+            <div class="col-lg-3">
+                <div style="padding: 0px 10px; height: 130px; width: 260px;">
+                    <img src="image/image/grandmaster seven.png" width="100%" height="100%">
+                </div>
+                <h5 class="text-center mt-2">Dita Grandmaster 7</h5>
+                <p class="text-center">RS 2000</p>
+                <button class="btn btn-outline-success" style="margin-left: 80px;" >Shop Now</button>
+            </div>
+            <div class="col-lg-3">
+                <div style="padding: 0px 10px; height: 130px; width: 260px;">
+                    <img src="image/image/mach seven.png" width="100%" height="100%">
+                </div>
+                <h5 class="text-center mt-2">Dita Mach Seven</h5>
+                <p class="text-center">RS 1700</p>
+                <button class="btn btn-outline-success" style="margin-left: 80px;" >Shop Now</button>
+            </div>
+            <div class="col-lg-3" >
+                <div style="padding: 0px 10px;  height: 130px; width: 260px;">
+                    <img src="image/image/mach five.png" width="100%" height="100%">
+                </div>
+                <h5 class="text-center mt-2">Dita Mach five</h5>
+                <p class="text-center">RS 1700</p>
+                <button class="btn btn-outline-success" style="margin-left: 80px;" >Shop Now</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- second row -->
+
+    <div class="container mt-3">
+        <div class="row" >
+            <div class="col-lg-3">
+                <div style="padding: 0px 10px; height: 140px; width: 260px;">
+                    <img src="image/image/lxn evo.png" width="100%" height="100%">
+                </div>
+                <h5 class="text-center mt-2">Dita Lxn Evo</h5>
+                <p class="text-center">RS 1400</p>
+                <button class="btn btn-outline-success" style="margin-left: 80px;" >Shop Now</button>
+            </div>
+            <div class="col-lg-3">
+                <div style="padding: 0px 10px; height: 140px; width: 260px;">
+                    <img src="image/image/chopard 9986.png" width="100%" height="100%">
+                </div>
+                <h5 class="text-center mt-2">Chopard 9986</h5>
+                <p class="text-center">RS 2000</p>
+                <button class="btn btn-outline-success" style="margin-left: 80px;" >Shop Now</button>
+            </div>
+            <div class="col-lg-3">
+                <div style="padding: 0px 10px; height: 140px; width: 260px;">
+                    <img src="image/image/blue bay blue.png" width="100%" height="100%">
+                </div>
+                <h5 class="text-center mt-2">Blue Bay Blue</h5>
+                <p class="text-center">RS 1700</p>
+                <button class="btn btn-outline-success" style="margin-left: 80px;" >Shop Now</button>
+            </div>
+            <div class="col-lg-3" >
+                <div style="padding: 0px 10px;  height: 140px; width: 260px;">
+                    <img src="image/image/blue bay meroon.png" width="100%" height="100%">
+                </div>
+                <h5 class="text-center mt-2">Blue Bay Meroon</h5>
+                <p class="text-center">RS 1700</p>
+                <button class="btn btn-outline-success" style="margin-left: 80px;" >Shop Now</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Third row -->
+
+    <div class="container mt-3">
+        <div class="row" >
+            <div class="col-lg-3">
+                <div style="padding: 0px 10px; height: 130px; width: 260px;">
+                    <img src="image/image/dior indite.png" width="100%" height="100%">
+                </div>
+                <h5 class="text-center mt-2">Dior Indite</h5>
+                <p class="text-center">RS 2300</p>
+                <button class="btn btn-outline-success" style="margin-left: 80px;" >Shop Now</button>
+            </div>
+            <div class="col-lg-3">
+                <div style="padding: 0px 10px; height: 130px; width: 260px;">
+                    <img src="image/image/max mara 1012.png" width="100%" height="100%">
+                </div>
+                <h5 class="text-center mt-2">Max Mara 1012</h5>
+                <p class="text-center">RS 2100</p>
+                <button class="btn btn-outline-success" style="margin-left: 80px;" >Shop Now</button>
+            </div>
+            <div class="col-lg-3">
+                <div  style="padding: 0px 10px; height: 130px; width: 260px;">
+                    <img src="image/image/rayban 3548.png" width="100%" height="100%">
+                </div>
+                <h5 class="text-center mt-2">Rayban 3548</h5>
+                <p class="text-center">RS 1500</p>
+                <button class="btn btn-outline-success" style="margin-left: 80px;" >Shop Now</button>
+            </div>
+            <div class="col-lg-3" >
+                <div  style="padding: 0px 10px;height: 130px; width: 260px;">
+                    <img src="image/image/moscot sun.png" width="100%" height="100%">
+                </div>
+                <h5 class="text-center mt-2">Moscot Sun</h5>
+                <p class="text-center">RS 1900</p>
+                <button class="btn btn-outline-success" style="margin-left: 80px;" >Shop Now</button>
+            </div>
+        </div>
+    </div>
+
+      <!-- toggle downdrop -->
+
+    <div id="old" >
+        <div class="container mt-3">
+            <div class="row" >
+                <div class="col-lg-3">
+                    <div style="padding: 0px 10px; height: 130px; width: 260px;">
+                        <img src="image/image/blauer 007.png" width="100%" height="100%">
+                    </div>
+                    <h5 class="text-center mt-2">Blauer 007</h5>
+                    <p class="text-center">RS 2300</p>
+                    <button class="btn btn-outline-success" style="margin-left: 80px;" >Shop Now</button>
+                </div>
+                <div class="col-lg-3">
+                    <div style="padding: 0px 10px; height: 130px; width: 260px;">
+                        <img src="image/image/blaure 008.png" width="100%" height="100%">
+                    </div>
+                    <h5 class="text-center mt-2">Blauer 008</h5>
+                    <p class="text-center">RS 2100</p>
+                    <button class="btn btn-outline-success" style="margin-left: 80px;" >Shop Now</button>
+                </div>
+                <div class="col-lg-3">
+                    <div style="padding: 0px 10px; height: 130px; width: 260px;">
+                        <img src="image/image/blaure 524.png" width="100%" height="100%">
+                    </div>
+                    <h5 class="text-center mt-2">blauer 524</h5>
+                    <p class="text-center">RS 1500</p>
+                    <button class="btn btn-outline-success" style="margin-left: 80px;" >Shop Now</button>
+                </div>
+                <div class="col-lg-3" >
+                    <div style="padding: 0px 10px;height: 130px; width: 260px;">
+                        <img src="image/image/lxn evo.png" width="100%" height="100%">
+                    </div>
+                    <h5 class="text-center mt-2">Evo Lxn</h5>
+                    <p class="text-center">RS 1900</p>
+                    <button class="btn btn-outline-success" style="margin-left: 80px;" >Shop Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-3">
+            <div class="row" >
+                <div class="col-lg-3">
+                    <div style="padding: 0px 10px; height: 130px; width: 260px;">
+                        <img src="image/image/armani 825.png" width="100%" height="100%">
+                    </div>
+                    <h5 class="text-center mt-2">Armani 825</h5>
+                    <p class="text-center">RS 2300</p>
+                    <button class="btn btn-outline-success" style="margin-left: 80px;" >Shop Now</button>
+                </div>
+                <div class="col-lg-3">
+                    <div style="padding: 0px 10px; height: 130px; width: 260px;">
+                        <img src="image/image/dior 86 brown.png" width="100%" height="100%">
+                    </div>
+                    <h5 class="text-center mt-2">Dior 86 Brown</h5>
+                    <p class="text-center">RS 2100</p>
+                    <button class="btn btn-outline-success" style="margin-left: 80px;" >Shop Now</button>
+                </div>
+                <div class="col-lg-3">
+                    <div style="padding: 0px 10px; height: 130px; width: 260px;">
+                        <img src="image/image/grandmaster seven.png" width="100%" height="100%">
+                    </div>
+                    <h5 class="text-center mt-2">Grand Seven</h5>
+                    <p class="text-center">RS 1500</p>
+                    <button class="btn btn-outline-success" style="margin-left: 80px;" >Shop Now</button>
+                </div>
+                <div class="col-lg-3" >
+                    <div style="padding: 0px 10px;height: 130px; width: 260px;">
+                        <img src="image/image/dolce & gabbana 611.png" width="100%" height="90%">
+                    </div>
+                    <h5 class="text-center mt-2">Dolce 611</h5>
+                    <p class="text-center">RS 1900</p>
+                    <button class="btn btn-outline-success" style="margin-left: 80px;" >Shop Now</button>
+                </div>
+            </div>
+        </div>
+      </div>
+    
+    <!-- toggle button -->
+
+    <buttton class="btn btn-success btn-lg mt-5" id="new" style="margin-left: 46%;">Show More</buttton>
+  
+
+  <!-- sunglasses para & image-->
+
+  <div class="container mt-5">
+    <div class="row">
+        <div class="col-lg-6">
+            <img src="image/bg/img-4.avif" height="100%"  width="100%">
+        </div>
+        <div class="col-lg-6" style="background-color: 	#fff1e0;">
+            <p style="font-size: 19px; padding: 4px; padding-top: 75px;">Sunglasses are an essential accessory that can instantly upgrade your appearance and protect your eyes as well. The market offers a variety of brands according to your budget and style statement. Also, designer  sunglasses price in Pakistan varies among different brands first copy depending on the product’s quality. You can purchase the top-selling online sunglasses in Pakistan at the most accessible rates available on our online store. We offer all kinds of chic and stylish sunglasses Pakistan customers have ever seen.</p>
+        </div>
+    </div>
+  </div>
+  
+  <!-- footer -->
+
+  <div id="match">
+    <div class="container text-light">
+        <div class="row">
+            <div class="col-lg-4 markx">
+                <h4>Follow Us</h4>
+                <div class="text-light display-6 mt-4" id="dmax" >
+                    <a href="#" class="text-light" style="padding: 5px  8px;"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <a href="#" class="text-light" style="padding: 5px  8px;"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                    <a href="#" class="text-light" style="padding: 5px  8px;"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    <a href="#" class="text-light" style="padding: 5px  8px;"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-4 markx">
+                <div>
+                    <p>Blog</p>
+                    <p class="mt-3">Contact Us</p>
+                    <p class="mt-3">Men Sunglasses</p>
+                    <p class="mt-3">Women Sunglasses</p>
+                </div>
+            </div>
+            <div class="col-lg-4 markx">
+                <h5>Find US</h5>
+                <div class="mt-4">
+                    <a href="#"><h3><i class="fa fa-phone" aria-hidden="true"></i>+92 304 0000000</h3></a>
+                    <h3><i class="fa fa-at" aria-hidden="true"></i>  sales@sunglassesco.pk</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr style="color: white; margin-top: 40px;">
+
+    <h5 class="text-center text-light">Design By:Kamran Jaffri</h5>
+
+    <h6 class="text-light" style="margin-top: 25px;">Copyright © 2021 sunglassesco.pk</h6>
+  </div>
+
+</body>
+</html>

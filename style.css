@@ -1,0 +1,97 @@
+ul li{
+    padding: 0px 5px;
+}
+.firstclass{
+    position: absolute;
+    bottom: px;
+    left: 75%;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+.fistclass p{
+    font-size: 45px !important;
+    padding-right: 900px !important;
+    padding-top: 200px !important;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-size:small;
+}
+.fistclass button{
+    margin-right: 700px;
+    margin-bottom: 80px;
+    border: 1px solid #28a745;
+    color: #ffffff;
+    padding: 8px 12px;
+    background-color: #28a745;
+}
+
+.secondclass p{
+    font-size: 45px !important;
+    padding-right: 300px !important;
+    padding-top: 200px !important;
+    color: rgb(255, 246, 246);
+    font-family:sans-serif;
+    font-size:small;
+}
+.secondclass button{
+    margin-right: 300px;
+    margin-bottom: 30px;
+    background-color: #28a745;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 8px 12px;
+}
+
+#fake {
+    width: 560px;
+    height: 470px;
+    overflow: hidden;
+}
+
+#fake img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all .3s ease;
+}
+#fake img:hover {
+    transform: scale(1.1);
+}
+
+#real{
+    width: 570px;
+    height: 470px;
+    overflow: hidden;
+}
+#real img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all .3s ease;
+}
+#real img:hover {
+    transform: scale(1.1);
+}
+#old{
+    display: none;
+}
+#match{
+    margin-top: 80px;
+    background-color: #198754;
+    height: 400px;
+}
+#dmax a i:hover{
+    color: #000000;
+    font-size: 43px;
+}
+.markx {
+    margin-top: 84px;
+}
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
